@@ -1,5 +1,7 @@
 # rbonsai
 
+This program is currently unfinished!
+
 `rbonsai` is a port of [`cbonsai`](https://gitlab.com/jallbrit/cbonsai), written in Rust (hence the "r").
 
 ## Installtion
