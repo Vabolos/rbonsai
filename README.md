@@ -10,7 +10,23 @@ To install via [crates.io](https://crates.io/crates/rbonsai) run `cargo install 
 
 ## Usage
 ```
-TODO: Insert the output of `rbonsai --help` here!
+Usage: rbonsai [OPTIONS]
+
+Options:
+  -l, --live                     Whether the tree generation should pause after each step to allow the user to watch it grow
+  -t, --time <TIME>              In live mode, wait time in seconds between each step of growth [default: 0.03]
+  -i, --infinite                 Infinite mode: keep growing trees
+  -w, --wait <WAIT>              In infinite mode, the wait time in seconds between each tree [default: 4]
+  -S, --screensaver              Screensaver mode: equivalent to -li and quit on any keypress
+  -m, --message <MESSAGE>        Attach message next to tree
+  -b, --base <BASE>              Ascii art plant base to use [default: 1]
+  -M, --multiplier <MULTIPLIER>  The branch multiplier; higher -> less branches [default: 3]
+  -L, --life <LIFE>              The starting life of the tree higher -> bigger tree [default: 32]
+  -p, --print                    The starting life of the tree higher -> bigger tree
+  -s, --seed <SEED>              random number seed for reproducable trees
+  -v, --verbose                  Whether there should be debug prints
+  -h, --help                     Print help
+  -V, --version                  Print version
 ```
 
 ## License
